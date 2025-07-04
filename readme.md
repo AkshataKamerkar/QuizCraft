@@ -26,10 +26,10 @@ An interactive application built with **FastAPI**, **LangChain**, **ChatGroq**, 
 |--------------|------------------------|
 | Frontend     | Streamlit              |
 | Backend      | FastAPI                |
-| LLMs         | ChatGroq (Mixtral / Gemma) |
+| LLMs         | ChatGroq               |
 | Document Parsing | LlamaParse         |
 | Prompt Engine | LangChain             |
-| Embeddings (Optional) | SentenceTransformers |
+| Embeddings   | SentenceTransformers   |
 
 ---
 
