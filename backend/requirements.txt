@@ -1,0 +1,10 @@
+fastapi==0.111.0
+uvicorn==0.29.0
+streamlit==1.35.0
+requests==2.32.3
+langchain==0.3.26
+langchain-core==0.3.68
+langchain-community==0.3.27
+langchain-groq==0.3.5
+llama-parse==0.6.41
+sentence-transformers==5.0.0
