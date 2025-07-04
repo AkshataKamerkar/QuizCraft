@@ -20,6 +20,10 @@ class MCQRequest(BaseModel):
 class EvaluationRequest(BaseModel):
     user_answers: dict
 
+@app.get("/")
+def home():
+    return {"message": "QuizCraft backend is running."}
+
 @app.post("/generate_questions")
 def get_questions(req: QuestionRequest):
     return {"questions": generate_questions(DOCUMENT_TEXT, req.num_questions, req.difficulty)}
