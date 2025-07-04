@@ -7,7 +7,7 @@ from utils.evaluator import evaluate_answers
 
 app = FastAPI()
 
-DOCUMENT_TEXT = parse_document("document.txt")
+DOCUMENT_TEXT = parse_document("document.pdf")
 
 class QuestionRequest(BaseModel):
     num_questions: int
